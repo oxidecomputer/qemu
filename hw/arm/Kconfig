@@ -228,6 +228,11 @@ config STELLARIS
     select STELLARIS_ENET # ethernet
     select UNIMP
 
+# XXX
+config JCLULOW
+    bool
+    select ARM_V7M
+
 config STRONGARM
     bool
     select PXA2XX
